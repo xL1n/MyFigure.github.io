@@ -1,15 +1,3 @@
-# Theme configuration
 theme: jekyll-theme-hacker
-
-# Site title and description
 title: Design High Quality Figure
 description: A Website only focus on high quality figure creations
-
-# Optional: Site URL (useful for SEO and canonical URLs)
-url: "https://your-github-username.github.io/your-repository-name/"
-
-# Optional: Base URL (useful if your site is in a subdirectory)
-baseurl: "/your-repository-name"
-
-# Optional: Additional configuration
-# You can add other configuration options like social links, analytics, etc.
