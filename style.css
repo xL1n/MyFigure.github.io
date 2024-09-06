@@ -1,29 +1,73 @@
-/* Box shadow for depth */
-.card {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s ease;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
 }
-
-.card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
 }
-
-/* Text shadow for depth */
-h1 {
-  font-size: 2em;
-  color: #333;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+h1, h2 {
+    color: #333;
 }
-
-/* Parallax background */
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #007BFF;
+}
+.hover-effect {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+.hover-effect:hover {
+    transform: translateX(10px) translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    border-top: 1px solid #444;
+}
 .parallax {
-  background-image: url('your-background-image.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 500px; /* Adjust based on your needs */
+    background-image: url('your-background-image.jpg'); /* Replace with your image */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust as needed */
+    box-shadow: inset 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
-
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
