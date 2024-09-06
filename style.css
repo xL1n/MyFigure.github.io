@@ -1,0 +1,8 @@
+.hover-move {
+    display: inline-block; /* Ensures the element respects the hover area */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.hover-move:hover {
+    transform: translateX(10px) translateY(-5px); /* Moves the text slightly on hover */
+}
