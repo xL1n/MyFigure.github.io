@@ -1,3 +1,4 @@
+/* Base styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,44 +7,54 @@ body {
     background: #f4f4f4;
     color: #333;
 }
+
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
     padding: 20px;
 }
+
 h1, h2 {
     color: #333;
 }
+
 a {
     color: #333;
     text-decoration: none;
 }
+
 a:hover {
     color: #007BFF;
 }
+
+/* Softer hover effect */
 .hover-effect {
     display: inline-block;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .hover-effect:hover {
-    transform: translateX(10px) translateY(-5px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateX(5px) translateY(-2px); /* Reduced transform for softer effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Softer shadow */
 }
+
 .gallery img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow */
 }
+
 .section {
     margin-bottom: 20px;
     padding: 20px;
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow */
 }
+
 .footer {
     text-align: center;
     margin-top: 20px;
@@ -52,22 +63,25 @@ a:hover {
     color: #fff;
     border-top: 1px solid #444;
 }
+
 .parallax {
     background-image: url('your-background-image.jpg'); /* Replace with your image */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 500px; /* Adjust as needed */
-    box-shadow: inset 0px 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.15); /* Softer shadow */
 }
+
 .card {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow */
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
+
 .card:hover {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    transform: translateY(-2px); /* Reduced transform for softer effect */
 }
