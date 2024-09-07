@@ -32,12 +32,12 @@ a:hover {
 .hover-effect {
     display: inline-block;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 8px; /* Ensure the border-radius is applied */
+    border-radius: 8px;
 }
 
 .hover-effect:hover {
-    transform: translateX(5px) translateY(-2px);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05); /* Slightly scale up */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 /* Rounded corners for images and cards */
